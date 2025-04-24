@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, footer, h1 {
+    margin: 0;
+}
+
+#leiaute-flex {
+    display: flex;
+}
+
+main {
+    width: 55%;
+    margin: auto;
+
+    /* todo */
+    transition: all linear .5s;
+}
+
+aside {
+    width: 15%;
+    margin-right: 2rem;
+}
+
+nav {
+    margin-left: 2rem;
+    width: 15%;
+}
+
+
+body {
+    /* background-image: linear-gradient(to left, gray, black); */
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    /* todo */
+    background: linear-gradient(5deg, rgb(200, 200, 100), rgb(180, 220, 100), #222);
+    text-shadow: 0 0 .15rem #222;
+}
+
+/*
+  marging, padding border podem ser configuradas individualmente ou pela ordem,
+  preferencialmente no sentido horário: top, right, bottom, left
+  */
+.bordas {
+    border-top: .4rem dotted yellow;
+    border-right: .4rem solid white;
+    border-bottom: .2rem dashed rgb(0, 128, 28);
+    border-left: .2rem inset blue;
+}
+
+.margens {
+    margin: 50px;   
+    border: 1px solid white;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+article, nav, aside {
+    /* background-color: lightgray; */
+    color: black;
+    padding: 1rem;
+    margin-top: 2.0rem;
+    margin-bottom: 1.0rem;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+
+    /* todo */
+    background: linear-gradient(rgb(66, 128, 66), rgb(200, 200, 100));
+}
+.comprimento {
+    border: 1px solid gray;
+    
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.autor-data {
+    text-align: right;
+    font-style: italic;
+    /* color: rgb(117, 108, 108); */
+    color: white;
+
+    /* todo */
+    text-shadow: 0 0 .3rem #222;
+}
+
+.entre-linhas {
+    line-height: 2.0;
+}
+
+.entre-letras {
+    letter-spacing: 0.3rem;
+} 
+
+#titulo-principal {
+    text-align: center;
+    /* background-image: linear-gradient(to left, black, gray); */
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+
+    /* todo */
+    background: linear-gradient(15deg, rgb(222, 222, 100), rgb(200, 200, 100), rgb(255, 255, 100));
+    text-shadow: 0 0 .3rem #222;
+}
+
+h2 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid black;
+}
+
+
+.negrito {
+    font-weight: bolder;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.vermelho {
+    color: #ff0000;
+}
+
+.verde {
+    color: #00ff00;
+}
+
+.azul {
+    color: #0000ff;
+}
+
+.cinza-claro {
+    color: #aaa 
+}
+
+.cinza-escuro {
+    color: #444;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verdana {
+    font-family: verdana;
+}
+
+.playwrite {
+    font-family: "Playwrite MX Guides", cursive;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    font-size: 1.5rem;
+    /* background-color: black; */
+    padding: .5rem;
+    /* background-image: linear-gradient(to left, black, gray); */
+
+    /* todo */
+    background: linear-gradient(15deg, rgb(33, 66, 99), rgb(200, 200, 100));
+    border-left: black solid .1rem;
+    border-top: black solid .1rem;
+    border-bottom: black solid .5rem;
+    border-right: black solid .5rem;
+    border-radius: .5rem;
+    margin: .4rem;
+}
+
+.lista-ordenada {
+    list-style-type: lower-roman;
+    margin-left: 2rem;
+}
+
+.lista-nao-ordenada {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+.lista-com-imagens {
+    list-style-image: url('imagens/seta1.png');
+    margin-left: 2rem;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    /* color: rgb(125, 123, 123); */
+    text-decoration: underline;
+
+    /* todo */
+    color: aqua;
+}   
+
+.lista-de-links li {
+    line-height: 2;
+}
+
+li a img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+table {
+    width: 70%;
+    margin: auto;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.tabela-1 td {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.linha-cinza {
+    background-color: #b1b0b0;
+    color: black;
+}
+
+.linha-branca {
+    background-color: #fff;
+    color: black;
+}
+
+/* todo */
+.flex {
+    display: flex;
+}
+.column {
+    flex-flow: column wrap;
+}
+.row {
+    flex-flow: row wrap;
+}
+.going-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+}
+#aside-left {
+    display: none;
+    width: 15%;
+    margin-left: -.2rem;
+}
+#box-model ul {
+    background: linear-gradient(rgba(120, 160, 80), rgb(22, 122, 66)); 
+    border: #222 solid 1px;
+    border-radius: .2rem;
+    color: white; 
+    padding: 1rem;
+}
+#box-model ul li {
+    list-style-position: inside;
+}
+footer #copyright {
+    width: 70%;
+}
+footer #members {
+    border-left: #222 solid .2rem;
+    width: 29%;
+}
+footer #members-data { 
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+#menu-stack {
+    cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+}
+#navigation {
+    border-radius: .2rem;
+}
+
+@media (max-width: 950px) {
+    aside ul li {
+        margin-left: -1.5rem;
+    }
+    nav, aside {
+        margin: .2rem;
+    }
+    nav ul li {
+        margin-left: -1.5rem;
+    }
+    #titulo-principal {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 750px) {
+    nav ul li, #aside-right ul li {
+        font-size: .9rem;
+    }
+}
+@media (max-width: 680px) {
+    #aside-left {
+        display: flex;
+    }
+    #aside-right {
+        display: none;
+    }
+    main {
+        width: 80%;
+        margin: 0 1rem;
+    }
+    nav {
+        width: 20%;
+    }
+    #titulo-principal {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 550px) {
+    #menu-stack {
+        display: flex;
+    }
+    nav {
+        width: 1%;
+        height: 2vh;
+    }
+    .nav-url, .nav-url-aside {
+        display: none;
+    }
+    .nav-url.active li, 
+    .nav-url-aside.active li {
+        border: #222 solid 1px;
+        padding: .3rem;
+        width: 9rem;
+    }
+    .nav-url.active li:hover, 
+    .nav-url-aside.active li:hover {
+        background: rgb(0, 99, 99);
+    }
+    .nav-url.active, .nav-url-aside.active {
+        background: linear-gradient(yellow, green);
+        border: #222 solid 1px;
+        border-radius: .2rem;
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        top: -1.5rem;
+    }
+    .info-label {
+        display: none;
+    }
+}
